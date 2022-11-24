@@ -22,7 +22,7 @@ function App() {
 
       const frame = (maxFrames/100) * (scrollPosition / (duration/100));
 
-      anim.goToAndPlay(frame, true); 
+      anim.goToAndStop(frame, true); 
   
     }
 
@@ -44,10 +44,12 @@ function App() {
   return (
     
       <div className="App">
-      <h1>A place in<br></br>the sun</h1>
-      <p>Every summer, as 30 million people head to the<br></br> beautiful beaches of Italy, Spiagge is there to help <br></br>them find the perfect spot.</p>
+        <text>
+          <h1>A place in<br></br>the sun</h1>
+          <p>Every summer, as 30 million people head to the<br></br> beautiful beaches of Italy, Spiagge is there to help <br></br>them find the perfect spot.</p>
 
-      <p className= "text2"> Armed with new investments and ambitious plans for<br></br> the future, Italy’s “Airbnb of the beach” asked Belka <br></br>completely revamp their B2C mobile app for the new<br></br> season.</p>
+          <p className= "text2"> Armed with new investments and ambitious plans for<br></br> the future, Italy’s “Airbnb of the beach” asked Belka <br></br>completely revamp their B2C mobile app for the new<br></br> season.</p>
+        </text>
       <div className='container' ref={container}></div>
       </div>
  
