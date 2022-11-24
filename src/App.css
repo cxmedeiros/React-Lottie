@@ -10,6 +10,7 @@ h1 {
   padding-left: 30%;
   padding-top: 30%;
   font-size: 50px;
+  color: white;
 
 }
 
@@ -18,8 +19,9 @@ p {
   padding-left: 30%;
   padding-top: 5%;
   font-size: 15px;
-  height: 100px;
-  width: 500px;
+  height: 60px;
+  width: 550px;
+  color: white;
 }
 
 
@@ -28,7 +30,8 @@ p {
   padding-left: 30%;
   font-size: 15px;
   height: 50px;
-  width: 500px;
+  width: 550px;
+  color: white;
 }
 
 .container {
@@ -36,10 +39,10 @@ p {
   height: 500px;
 }
 
-body {
-  height: 100vh;
-  width: 100vh;
-  background-color: #61dafb;
+body, html{
+    margin: 0;
+    width: 100%;
+    height: 500vh;
 }
 
 text {
@@ -48,10 +51,16 @@ text {
 }
 
 .App {
+  position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-} 
+}
+
+.section1 {
+  height: 5000px;
+  background-color: rgb(14, 78, 255)
+}
 
 /*
 .App-logo {
